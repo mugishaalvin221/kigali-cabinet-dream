@@ -37,7 +37,7 @@ function ContactPage() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const text = `New Quote Request%0A%0AName: ${form.name}%0APhone: ${form.phone}%0AEmail: ${form.email}%0AProject: ${form.type}%0ASize: ${form.size}%0ABudget: ${form.budget}%0ALocation: ${form.location}%0A%0A${form.message}`;
-    window.open(`https://wa.me/250788000000?text=${text}`, "_blank");
+    window.open(`https://wa.me/250787240775?text=${text}`, "_blank");
     setSubmitted(true);
   };
 
@@ -123,22 +123,20 @@ function ContactPage() {
             <div className="rounded-sm bg-foreground p-8 text-background md:p-10">
               <h2 className="font-serif text-2xl">Speak with us directly</h2>
               <ul className="mt-8 space-y-6 text-sm">
-                <ContactItem icon={MessageCircle} title="WhatsApp" detail="+250 788 000 000" href="https://wa.me/250788000000" />
-                <ContactItem icon={Phone} title="Call" detail="+250 788 000 000" href="tel:+250788000000" />
-                <ContactItem icon={Mail} title="Email" detail="hello@mukamana.rw" href="mailto:hello@mukamana.rw" />
-                <ContactItem icon={MapPin} title="Showroom" detail={"KG 11 Ave, Kimihurura\nKigali, Rwanda"} />
+                <ContactItem icon={MessageCircle} title="WhatsApp" detail="+250 787 240 775" href="https://wa.me/250787240775" />
+                <ContactItem icon={Phone} title="Call" detail="0787 240 775" href="tel:+250787240775" />
+                <ContactItem icon={Mail} title="Email" detail="hello@mdffurniture.rw" href="mailto:hello@mdffurniture.rw" />
+                <ContactItem icon={MapPin} title="Workshop" detail={"KG 665 St, Kigali\nPlus Code: 33JC+56"} href="https://www.google.com/maps/search/?api=1&query=33JC%2B56+Kigali" />
               </ul>
               <div className="mt-10 border-t border-background/15 pt-6 text-xs text-background/70">
                 <p className="uppercase tracking-[0.25em] text-accent">Hours</p>
-                <p className="mt-3">Mon – Fri · 8:00 – 18:00</p>
-                <p>Saturday · 9:00 – 14:00</p>
-                <p>Sunday · By appointment</p>
+                <p className="mt-3">Open 24 hours · 7 days a week</p>
               </div>
             </div>
             <div className="mt-6 overflow-hidden rounded-sm border border-border">
               <iframe
-                title="Mukamana Bespoke Showroom Location"
-                src="https://www.google.com/maps?q=Kimihurura,Kigali&output=embed"
+                title="MDF Furniture Rwanda — KG 665 St, Kigali"
+                src="https://www.google.com/maps?q=33JC%2B56+Kigali&output=embed"
                 className="h-72 w-full"
                 loading="lazy"
               />

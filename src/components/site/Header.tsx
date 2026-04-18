@@ -15,9 +15,9 @@ export function Header() {
     <header className="sticky top-0 z-40 border-b border-border/60 bg-background/85 backdrop-blur-md">
       <div className="container-luxe flex h-16 items-center justify-between md:h-20">
         <Link to="/" className="flex flex-col leading-none">
-          <span className="font-serif text-xl tracking-tight md:text-2xl">Mukamana Bespoke</span>
+          <span className="font-serif text-xl tracking-tight md:text-2xl">MDF Furniture Rwanda</span>
           <span className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
-            Cabinetry · Kigali
+            Furniture Maker · Kigali
           </span>
         </Link>
         <nav className="hidden items-center gap-10 md:flex">
