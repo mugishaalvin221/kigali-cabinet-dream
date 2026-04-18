@@ -1,6 +1,6 @@
-const WHATSAPP_NUMBER = "250788000000";
+const WHATSAPP_NUMBER = "250787240775";
 const MESSAGE = encodeURIComponent(
-  "Hello Mukamana Bespoke, I'd like to discuss a custom cabinet project.",
+  "Hello MDF Furniture Rwanda, I'd like to discuss a custom cabinet project.",
 );
 
 export function WhatsAppFab() {
