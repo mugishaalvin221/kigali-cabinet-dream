@@ -48,6 +48,13 @@ export const Route = createRootRoute({
       { name: "author", content: "Mukamana Bespoke Cabinetry" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Mukamana Bespoke — Luxury Kitchen & TV Cabinets in Kigali" },
+      { name: "twitter:title", content: "Mukamana Bespoke — Luxury Kitchen & TV Cabinets in Kigali" },
+      { name: "description", content: "Generates a premium website plan for a Kigali-based cabinet maker specializing in luxury TV and kitchen cabinets." },
+      { property: "og:description", content: "Generates a premium website plan for a Kigali-based cabinet maker specializing in luxury TV and kitchen cabinets." },
+      { name: "twitter:description", content: "Generates a premium website plan for a Kigali-based cabinet maker specializing in luxury TV and kitchen cabinets." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6bf8e4c2-f2e1-44ae-ae8e-87d348e80a09/id-preview-b53526c0--a131a275-bdd4-4202-8cbf-8b71080e3ba5.lovable.app-1776435570121.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6bf8e4c2-f2e1-44ae-ae8e-87d348e80a09/id-preview-b53526c0--a131a275-bdd4-4202-8cbf-8b71080e3ba5.lovable.app-1776435570121.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
